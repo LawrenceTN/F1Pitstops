@@ -9,3 +9,16 @@ Each season, the FIA, the governing body F1, alters the rules and constrains of 
 Each time had to move on from a 13-inch tire to a much larger 18-inch tire. With this massive change, I was interested to see how this would affect each team's pitstop crew's performance regarding their time. With a 38% increase in size, I hypothesized that each team would see an increase in time in their pitstops.
 
 This is a basic project to showcase my data analysis skills in a subject I'm interested in. I would love to hear any advice / requests from viewers if they have any questions or tips on how to improve.
+
+Positions	Points
+1st	25
+2nd	18
+3rd	15
+4th	12
+5th	10
+6th	8
+7th	6
+8th	4
+9th	2
+10th	1
+![image](https://user-images.githubusercontent.com/47574914/195957618-67e67f1a-4060-4531-afad-4d90f303097e.png)
