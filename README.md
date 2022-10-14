@@ -1,7 +1,7 @@
 # F1PitstopsProject
 The F1 pitstop is a project I created to show basic skills of Microsoft Excel and MySQL that presents pitstop data from the 2021 F1 season to the 2022 F1 season.
 
-Formula 1 (F!) is the world's most prestigious motor racing competition that consists of 20 drivers and 10 teams. 
+Formula 1 (F1) is the world's most prestigious motor racing competition that consists of 20 drivers and 10 teams. 
 Each team has 2 drivers and a large team of engineers and mechanics that help modify the car to ensure that it not only is extremely fast, but also is capable of enduring the thousands of miles each car accumulates through the 20+ race season.
 This makes F1 much more intriguing to me, as it really isn't solely about the 20 drivers competing almost every weekend. 
 
