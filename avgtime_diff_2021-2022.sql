@@ -63,3 +63,21 @@ FROM
 WHERE
     Driver = Driver
 GROUP BY Driver;
+
+# Shows which driver has the most total points (Point distribution explained in README) in the 2021 season.
+
+SELECT 
+    Team AS 'Team (2021)', Driver, SUM(Points) AS 'Total Points'
+FROM
+    pitstops2021_2022.fastestpits2021
+GROUP BY Driver
+ORDER BY SUM(Points) DESC;
+
+# Shows which driver has the most total points (Point distribution explained in README) in the 2022 season.
+
+SELECT 
+    Team AS 'Team (2022)', Driver, SUM(Points) AS 'Total Points'
+FROM
+    pitstops2021_2022.fastestpits2022
+GROUP BY Driver
+ORDER BY SUM(Points) DESC;
