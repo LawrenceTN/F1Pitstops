@@ -8,8 +8,10 @@ This makes F1 much more intriguing to me, as it isn't solely about the 20 driver
 Each season, the FIA, the governing body of F1, alters the rules and the constraints of each car that forces each team to build a new car each season. One of the highlighted changes that were implemented this year was the 18-inch tire regulation.
 In the 2021 season, the regulation size of the tire was 13-inches. With this massive change, I was interested to see how this would affect each team's pitstop crew's performance regarding their time. With a 38% increase in size, I hypothesized that each team would see an increase in time in their pitstops.
 
-This is a basic project to showcase my data analysis skills in a subject I'm interested in. I would love to hear any advice / requests from viewers if they have any questions or tips on how to improve.
+This is a basic project to showcase my data analysis skills in a subject I'm interested in. I would love to hear any advice/requests from viewers if they have any questions or tips on how to improve.
 
 Point distribution:
 
 ![image](https://user-images.githubusercontent.com/47574914/195957618-67e67f1a-4060-4531-afad-4d90f303097e.png)
+
+Data was acquired from inmotion.DHL. DHL is a long-standing global partner of Formula 1. Initially, I wanted to use Python to showcase my data scraping skills but was restructed to do because it required an API key. I had to then resort to manually copying the data onto an excel sheet and then transferring it over to MySQL for analysis.
