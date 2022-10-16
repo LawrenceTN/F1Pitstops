@@ -14,4 +14,4 @@ Point distribution:
 
 ![image](https://user-images.githubusercontent.com/47574914/195957618-67e67f1a-4060-4531-afad-4d90f303097e.png)
 
-Data was acquired from inmotion.DHL. DHL is a long-standing global partner of Formula 1. Initially, I wanted to use Python to showcase my data scraping skills but was restructed to do because it required an API key. I had to then resort to manually copying the data onto an excel sheet and then transferring it over to MySQL for analysis.
+Data was acquired from inmotion.DHL. DHL is a long-standing global partner of Formula 1. Initially, I wanted to use Python to showcase my data scraping skills but was restricted from doing so because it required an API key. I had to then resort to manually copying the data onto an excel sheet and then transferring it over to MySQL for analysis.
