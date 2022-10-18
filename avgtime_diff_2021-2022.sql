@@ -5,8 +5,8 @@ USE pitstops2021_2022;
 
 SELECT 
     fastestpits2022.Team,
-    ROUND(AVG(fastestpits2021.Time), 2) AS 'Average Time with outliers (2021)',
-    ROUND(AVG(fastestpits2022.Time), 2) AS 'Average Time with outliers (2022)',
+    ROUND(AVG(fastestpits2021.Time), 2) AS 'Average Time (sec) with outliers (2021)',
+    ROUND(AVG(fastestpits2022.Time), 2) AS 'Average Time (sec) with outliers (2022)',
     ROUND(ROUND(AVG(fastestpits2022.Time), 2) - ROUND(AVG(fastestpits2021.Time), 2),
             2) AS 'Difference',
 	ROUND(ROUND(ROUND(AVG(fastestpits2022.Time), 2) - ROUND(AVG(fastestpits2021.Time), 2),
@@ -24,8 +24,8 @@ ORDER BY Difference;
 
 SELECT 
     fastestpits2022.Team,
-    ROUND(AVG(fastestpits2021.Time), 2) AS 'Average Time without outliers (2021)',
-    ROUND(AVG(fastestpits2022.Time), 2) AS 'Average Time without outliers (2022)',
+    ROUND(AVG(fastestpits2021.Time), 2) AS 'Average Time (sec) without outliers (2021)',
+    ROUND(AVG(fastestpits2022.Time), 2) AS 'Average Time (sec) without outliers (2022)',
     ROUND(ROUND(AVG(fastestpits2022.Time), 2) - ROUND(AVG(fastestpits2021.Time), 2),
             2) AS 'Difference',
 	ROUND(ROUND(ROUND(AVG(fastestpits2022.Time), 2) - ROUND(AVG(fastestpits2021.Time), 2),
@@ -44,25 +44,27 @@ ORDER BY Difference;
 
 SELECT 
     Driver AS 'Driver (2021)',
-    ROUND(AVG(Time), 2) AS 'Average Pit Time',
-    COUNT(Driver) AS 'Number of Pits'
+    ROUND(AVG(Time), 2) AS 'Average Pit Time (sec)',
+    COUNT(Driver) AS 'Number of Pitstops'
 FROM
     fastestpits2021
 WHERE
     Driver = Driver
-GROUP BY Driver;
+GROUP BY Driver
+ORDER BY AVG(Time);
 
 # This set shows each 2022 Driver and their average pit times and the number of pit stops. Outliers are included.
 
 SELECT 
     Driver AS 'Driver (2022)', 
-    ROUND(AVG(Time), 2) AS 'Average Pit Time',
-    COUNT(Driver) AS 'Number of Pits'
+    ROUND(AVG(Time), 2) AS 'Average Pit Time (sec)',
+    COUNT(Driver) AS 'Number of Pitstops'
 FROM
     fastestpits2022
 WHERE
     Driver = Driver
-GROUP BY Driver;
+GROUP BY Driver
+ORDER BY AVG(Time);
 
 # Shows which driver has the most total points (Point distribution explained in README) in the 2021 season.
 
@@ -81,3 +83,19 @@ FROM
     pitstops2021_2022.fastestpits2022
 GROUP BY Driver
 ORDER BY SUM(Points) DESC;
+
+# Shows the points of each driver race by race in the 2021 season.
+
+SELECT 
+    Driver, Points, Race
+FROM
+    fastestpits2021
+GROUP BY Driver , Race;
+
+# Shows the points of each driver race by race in the 2022 season.
+
+SELECT 
+    Driver, Points, Race
+FROM
+    fastestpits2022
+GROUP BY Driver , Race;
