@@ -84,18 +84,18 @@ FROM
 GROUP BY Driver
 ORDER BY SUM(Points) DESC;
 
-# Shows the points of each driver race by race in the 2021 season.
+# Shows the points & time of each driver race by race in the 2021 season.
 
 SELECT 
-    Driver, Points, Race
+    Driver, Points, Time, Race
 FROM
     fastestpits2021
 GROUP BY Driver , Race;
 
-# Shows the points of each driver race by race in the 2022 season.
+# Shows the points & time of each driver race by race in the 2022 season.
 
 SELECT 
-    Driver, Points, Race
+    Driver, Points, Time, Race
 FROM
     fastestpits2022
 GROUP BY Driver , Race;
