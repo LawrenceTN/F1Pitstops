@@ -9,4 +9,6 @@ Between each season, the FIA, the governing body of F1, alters the rules and the
 
 Data was acquired from inmotion.DHL. DHL is a long-standing global partner of Formula 1. Initially, I wanted to use Python to showcase my data scraping skills but was restricted from doing so because it required an API key. I had to then resort to manually copying the data onto an excel sheet and then transferring it over to MySQL for analysis. From MySQL, I extracted the data I needed and used Tableau Public to showcase the data graphically.
 
+[Tableau Workbook](https://public.tableau.com/views/Formula1DriverPitstops/F1PitstopProject?:language=en-US&:display_count=n&:origin=viz_share_link)
+
 This is a basic project to showcase my data analysis skills in a subject I'm interested in. I would love to hear any advice/requests from viewers if they have any questions or tips on how to improve.
