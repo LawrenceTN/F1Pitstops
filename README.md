@@ -12,3 +12,8 @@ Data was acquired from inmotion.DHL. DHL is a long-standing global partner of Fo
 [Tableau Workbook](https://public.tableau.com/views/Formula1DriverPitstops/F1PitstopProject?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 This is a basic project to showcase my data analysis skills in a subject I'm interested in. I would love to hear any advice/requests from viewers if they have any questions or tips on how to improve.
+
+**UPDATE 11/7/2022**
+
+No longer using the point system for each driver as I wanted the focus to be on the data rather than a 'competition'. May change my mind later. 
+Updated with the race data for the US Grand Prix in Austin and the Mexico Grand Prix in Mexico City.
