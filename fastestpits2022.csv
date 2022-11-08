@@ -470,27 +470,27 @@
 36,Haas,Magnussen,6.2,11,0,Belgium
 37,AlphaTauri,Tsunoda,9.78,18,0,Belgium
 38,Williams,Latifi,15.22,3,0,Belgium
-1,Red Bull,Perez,2.09,14,25,
-2,Red Bull,Perez,2.32,40,0,
-3,AlphaTauri,Gasly,2.34,32,18,
-4,Aston Martin,Stroll,2.37,56,15,
-5,AlphaTauri,Gasly,2.38,56,0,
-6,McLaren,Norris,2.43,17,12,
-7,McLaren,Ricciardo,2.44,27,10,
-8,AlphaTauri,Gasly,2.49,11,0,
-9,Ferrari,Leclerc,2.5,17,8,
-10,Ferrari,Leclerc,2.51,45,0,
-11,Mercedes,Hamilton,2.6,29,6,
-12,Aston Martin,Vettel,2.61,35,4,
-13,McLaren,Ricciardo,2.62,11,0,
-14,AlphaTauri,Tsunoda,2.64,13,2,
-15,Aston Martin,Vettel,2.67,48,0,
-16,Red Bull,Perez,2.74,56,0,
-17,Williams,Albon,2.75,21,1,
-18,Ferrari,Leclerc,2.77,56,0,
-19,Mercedes,Hamilton,2.8,48,0,
-20,Alfa Romeo,Zhou,2.83,12,0,
-21,Mercedes,Russell,2.84,31,0,
+1,Red Bull,Perez,2.09,14,25,Netherlands
+2,Red Bull,Perez,2.32,40,0,Netherlands
+3,AlphaTauri,Gasly,2.34,32,18,Netherlands
+4,Aston Martin,Stroll,2.37,56,15,Netherlands
+5,AlphaTauri,Gasly,2.38,56,0,Netherlands
+6,McLaren,Norris,2.43,17,12,Netherlands
+7,McLaren,Ricciardo,2.44,27,10,Netherlands
+8,AlphaTauri,Gasly,2.49,11,0,Netherlands
+9,Ferrari,Leclerc,2.5,17,8,Netherlands
+10,Ferrari,Leclerc,2.51,45,0,Netherlands
+11,Mercedes,Hamilton,2.6,29,6,Netherlands
+12,Aston Martin,Vettel,2.61,35,4,Netherlands
+13,McLaren,Ricciardo,2.62,11,0,Netherlands
+14,AlphaTauri,Tsunoda,2.64,13,2,Netherlands
+15,Aston Martin,Vettel,2.67,48,0,Netherlands
+16,Red Bull,Perez,2.74,56,0,Netherlands
+17,Williams,Albon,2.75,21,1,Netherlands
+18,Ferrari,Leclerc,2.77,56,0,Netherlands
+19,Mercedes,Hamilton,2.8,48,0,Netherlands
+20,Alfa Romeo,Zhou,2.83,12,0,Netherlands
+21,Mercedes,Russell,2.84,31,0,Netherlands
 22,Red Bull,Verstappen,2.86,48,0,Netherlands
 23,Ferrari,Sainz,2.96,57,0,Netherlands
 24,McLaren,Ricciardo,2.98,47,0,Netherlands
@@ -546,7 +546,7 @@
 17,Williams,de Vries,3.1,19,0,Monza
 18,Ferrari,Sainz,3.12,47,0,Monza
 19,Haas,Schumacher,3.28,33,0,Monza
-20,Haas,Mag,3.29,46,0,Monza
+20,Haas,Magnussen,3.29,46,0,Monza
 21,McLaren,Ricciardo,3.4,19,0,Monza
 22,Alfa Romeo,Bottas,3.51,35,0,Monza
 23,Mercedes,Russell,3.61,23,0,Monza
@@ -554,7 +554,7 @@
 25,AlphaTauri,Gasly,3.69,18,0,Monza
 26,McLaren,Norris,5.13,35,0,Monza
 27,Williams,Latifi,5.21,15,0,Monza
-28,Haas,Manussen,8.42,24,0,Monza
+28,Haas,Magnussen,8.42,24,0,Monza
 1,Red Bull,Verstappen,2.46,35,25,Sinagpore
 2,Mercedes,Russell,2.49,35,18,Sinagpore
 3,Mercedes,Russell,2.5,51,0,Sinagpore
@@ -600,4 +600,62 @@
 22,Mercedes,Hamilton,3.87,7,0,Suzuka
 23,Mercedes,Russell,4.23,7,0,Suzuka
 24,AlphaTauri,Gasly,18.7,1,0,Suzuka
-,,,,,0,
+1,Red Bull,Perez,2.13,14,25,Austin
+2,AlphaTauri,Tsunoda,2.14,33,18,Austin
+3,McLaren,Norris,2.24,34,15,Austin
+4,AlphaTauri,Gasly,2.26,11,12,Austin
+5,AlphaTauri,Tsunoda,2.44,10,0,Austin
+6,Alpine,Alonso,2.45,18,10,Austin
+7,McLaren,Norris,2.46,14,0,Austin
+8,Red Bull,Verstappen,2.63,13,8,Austin
+9,Williams,Latifi,2.64,18,6,Austin
+10,Mercedes,Russell,2.65,54,4,Austin
+11,Aston Martin,Vettel,2.69,18,2,Austin
+12,McLaren,Ricciardo,2.7,35,1,Austin
+13,Mercedes,Hamilton,2.72,34,0,Austin
+14,Ferrari,Leclerc,2.88,35,0,Austin
+15,Mercedes,Hamilton,2.96,12,0,Austin
+16,Williams,Albon,3.1,18,0,Austin
+17,Alpine,Ocon,3.15,18,0,Austin
+18,Mercedes,Russell,3.26,36,0,Austin
+19,Haas,Schumacher,3.27,33,0,Austin
+20,Alpine,Ocon,3.31,45,0,Austin
+21,Alfa Romeo,Bottas,3.35,10,0,Austin
+22,Williams,Albon,3.36,9,0,Austin
+23,Alfa Romeo,Zhou,3.4,23,0,Austin
+24,Ferrari,Leclerc,3.54,18,0,Austin
+25,Haas,Schumacher,3.81,18,0,Austin
+26,Red Bull,Perez,3.82,38,0,Austin
+27,Aston Martin,Stroll,3.83,15,0,Austin
+28,Williams,Latifi,3.91,5,0,Austin
+29,McLaren,Ricciardo,4.49,10,0,Austin
+30,Haas,Magnussen,5.1,18,0,Austin
+31,Alfa Romeo,Zhou,5.61,9,0,Austin
+32,AlphaTauri,Gasly,7.71,32,0,Austin
+33,Mercedes,Russell,8.48,13,0,Austin
+34,Red Bull,Verstappen,11.13,35,0,Austin
+35,Alpine,Alonso,15.97,22,0,Austin
+36,Aston Martin,Vettel,16.81,41,0,Austin
+1,McLaren,Ricciardo,1.98,44,25,Mexico
+2,McLaren,Norris,2.29,31,18,Mexico
+3,Ferrari,Leclerc,2.34,28,15,Mexico
+4,Alpine,Ocon,2.35,33,12,Mexico
+5,Williams,Albon,2.52,38,10,Mexico
+6,Red Bull,Verstappen,2.58,25,8,Mexico
+7,AlphaTauri,Tsunoda,2.6,29,6,Mexico
+8,Aston Martin,Vettel,2.74,38,4,Mexico
+9,Mercedes,Russell,2.77,34,2,Mexico
+10,Aston Martin,Stroll,2.98,40,1,Mexico
+11,Alpine,Alonso,3.03,40,0,Mexico
+12,Aston Martin,Stroll,3.15,17,0,Mexico
+13,Mercedes,Russell,3.23,69,0,Mexico
+14,Mercedes,Hamilton,3.33,29,0,Mexico
+15,Haas,Magnussen,3.36,38,0,Mexico
+16,Haas,Schumacher,3.41,24,0,Mexico
+17,Ferrari,Sainz,3.53,29,0,Mexico
+18,Alfa Romeo,Bottas,3.54,39,0,Mexico
+19,Williams,Latifi,3.59,23,0,Mexico
+20,Williams,Latifi,3.94,52,0,Mexico
+21,Alfa Romeo,Zhou,4.51,45,0,Mexico
+22,Red Bull,Perez,5.03,23,0,Mexico
+23,AlphaTauri,Gasly,9.39,40,0,Mexico
